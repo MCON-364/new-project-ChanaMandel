@@ -37,8 +37,4 @@ jobs:
         id: autograder
         uses: education/autograding@v1
 
-      - name: Report autograding results
-        if: always()
-        uses: classroom-resources/autograding-grading-reporter@v1
-        with:
-          runners: autograder
+

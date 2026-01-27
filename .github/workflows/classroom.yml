@@ -40,7 +40,5 @@ jobs:
       - name: Report autograding results
         if: always()
         uses: classroom-resources/autograding-grading-reporter@v1
-        env:
-          AUTOGRADER_RESULTS: "${{ steps.autograder.outputs.grading-score }}"
         with:
-          runners: autograding
+          runners: autograder

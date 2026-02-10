@@ -26,9 +26,10 @@ public static String getGreeting(String envVarName);
 - Iterates over a `List<List<Integer>>`
 - Uses a labeled `continue` to skip to the next outer list when a condition is met
 - Uses a labeled `break` to exit processing early when a terminating condition is met
+- Returns number of processed rows
 
 ```java
-public static void processValues(List<List<Integer>> data);
+public static Integer processValues(List<List<Integer>> data);
 ```
 
 #### Example Data for `processValues`:

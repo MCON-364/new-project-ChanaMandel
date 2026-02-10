@@ -12,7 +12,5 @@ public class Main{
 
     public static String getGreeting(String envVarName){
         Optional<String> greeting = getUserName(envVarName);
-
-
     }
 }

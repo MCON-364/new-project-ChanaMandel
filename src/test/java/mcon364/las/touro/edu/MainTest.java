@@ -1,5 +1,4 @@
 package mcon364.las.touro.edu;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -18,7 +17,7 @@ public class MainTest {
 
     @Test
     void testGetGreeting(){
-        assertEquals("Hello, World", Main.getGreeting("Null"));
+        assertEquals("Hello", Main.getGreeting("NULL"));
         assertEquals("Hello, " + System.getenv("USERNAME"), Main.getGreeting("USERNAME"));
     }
 
